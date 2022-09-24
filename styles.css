@@ -1,0 +1,95 @@
+h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+.bad-joke {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  width: 50%;
+}
+
+.ingredients {
+  font-family: sans-serif;
+  list-style-type: circle;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #f2f2f2af;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.ingredients .list-header {
+  font-family: sans-serif;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.directions {
+  font-family: sans-serif;
+  background-color: #f2f2f2af;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.directions dt {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.directions dd {
+  font-size: 16px;
+}
+
+.homebutton, .homebutton:visited{
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-left: 50px;
+  padding: 20px;
+  background-color: #16825c;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+.homebutton:hover{
+  background-color: #2c9570;
+}
+
+.homebutton:active{
+  background-color: #53ab8c;
+  padding: 16px;
+  margin-left: 54px;
+  text-decoration: underline;
+}
+
+.recipe-button, .recipe-button:visited{
+  display: block;
+  padding: 10px;
+  margin: 20px;
+  background-color: #b79338;
+  width: 50%;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.recipe-button:hover{
+  background-color: #c0a35a;
+}
+
+.recipe-button:active{
+  text-decoration: underline;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 22px;
+}
