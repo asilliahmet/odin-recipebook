@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+}
+
+.recipe-button, .recipe-button:visited{
+  display: block;
+  margin: 40px;
+  background-color: #b79338;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.recipe-button:hover{
+  background-color: #c0a35a;
+}
+
+.recipe-button:active {
+  text-decoration: underline;
+  padding: 8px;
+  margin: 42px;
+}
