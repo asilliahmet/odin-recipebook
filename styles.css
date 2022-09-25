@@ -46,7 +46,8 @@ h1 {
   font-size: 16px;
 }
 
-.homebutton, .homebutton:visited{
+.homebutton,
+.homebutton:visited {
   font-size: 25px;
   font-family: sans-serif;
   margin-left: 50px;
@@ -57,18 +58,19 @@ h1 {
   border-radius: 15px;
 }
 
-.homebutton:hover{
+.homebutton:hover {
   background-color: #2c9570;
 }
 
-.homebutton:active{
+.homebutton:active {
   background-color: #53ab8c;
   padding: 16px;
   margin-left: 54px;
   text-decoration: underline;
 }
 
-.recipe-button, .recipe-button:visited{
+.recipe-button,
+.recipe-button:visited {
   display: block;
   padding: 10px;
   margin: 20px;
@@ -83,11 +85,11 @@ h1 {
   font-size: 20px;
 }
 
-.recipe-button:hover{
+.recipe-button:hover {
   background-color: #c0a35a;
 }
 
-.recipe-button:active{
+.recipe-button:active {
   text-decoration: underline;
   padding-left: 8px;
   padding-right: 8px;
